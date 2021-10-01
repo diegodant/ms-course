@@ -37,7 +37,7 @@ public class WorkerResource {
 	@GetMapping(value = "/{id}")
 	public ResponseEntity<Worker> findbyId(@PathVariable Long id){
 		
-//		teste para ver se hysterix estava interceptando o metodo
+//		teste para ver se hystrix estava interceptando o metodo
 //		try {
 //			Thread.sleep(3000L);
 //		} catch (InterruptedException e) {
