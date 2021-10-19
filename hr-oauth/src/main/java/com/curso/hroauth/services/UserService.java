@@ -23,7 +23,7 @@ public class UserService {
 			logger.error("Email not found: " + email);
 			throw new IllegalArgumentException("Email not found");
 		}
-		logger.error("Email found: " + email);
+		logger.info("Email found: " + email);
 		return user;
 	}
 }
